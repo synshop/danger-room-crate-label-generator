@@ -1,0 +1,5 @@
+crate_id,tool_name,category,manual_url,ppe,checklist
+C-014,Circular Saw,power-saw,https://wiki.local/tools/circular-saw,"eye,ear,respirator","blade installed and tight|guard intact and free-moving|cord wrapped neatly|wrenches and keys present|crate swept clean|any damage reported"
+C-022,Jig Saw,power-saw,https://wiki.local/tools/jig-saw,"eye,ear,respirator","blade installed|cord wrapped neatly|extra blades present|crate swept clean|any damage reported"
+C-031,Random Orbit Sander,sander,https://wiki.local/tools/orbit-sander,"eye,ear,respirator","sandpaper packs counted|dust bag emptied|cord wrapped neatly|crate swept clean|any damage reported"
+C-045,Cordless Drill,drill,https://wiki.local/tools/cordless-drill,"eye","battery on charger|bits returned to case|chuck key present|crate swept clean|any damage reported"

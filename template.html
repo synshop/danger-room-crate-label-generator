@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="label" style="--cat-color: {{ category_color }};">
+    <header class="banner">
+      <div class="tool-name">{{ tool_name }}</div>
+      <div class="crate-id">
+        <div class="crate-label">CRATE</div>
+        <div class="crate-num">{{ crate_id }}</div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="ppe">
+        <h2>REQUIRED PPE</h2>
+        <ul>
+          {% for item in ppe %}
+          <li>
+            <img src="{{ item.svg_path }}" alt="{{ item.label }}">
+            <span>{{ item.label }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="qr">
+        <div class="qr-img">{{ qr_svg|safe }}</div>
+        <p>SCAN FOR MANUAL</p>
+      </section>
+
+      <section class="checklist">
+        <h2>RETURN CHECKLIST</h2>
+        <ul>
+          {% for item in checklist %}
+          <li><span class="box"></span><span class="text">{{ item }}</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
