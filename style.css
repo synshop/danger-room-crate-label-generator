@@ -1,5 +1,5 @@
 @page {
-  size: 9in 5in;
+  size: 8.5in 5in;
   margin: 0;
 }
 
@@ -7,15 +7,19 @@
 
 html, body {
   font-family: 'Helvetica', 'Arial', sans-serif;
-  width: 9in;
+  width: 8.5in;
   height: 5in;
   color: #111;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #111;
 }
 
 .label {
-  width: 9in;
-  height: 5in;
+  width: 7.5in;
+  height: 4.0in;
   display: grid;
   grid-template-rows: 1in 1fr;
   border: 4pt solid var(--cat-color);
@@ -104,18 +108,18 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .qr-img {
-  width: 1.7in;
-  height: 1.7in;
+  width: 2in;
+  height: 2in;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .qr-img svg {
-  width: 1.7in !important;
-  height: 1.7in !important;
+  width: 2in !important;
+  height: 2in !important;
 }
 .qr p {
   font-size: 9pt;

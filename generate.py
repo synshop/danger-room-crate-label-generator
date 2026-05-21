@@ -31,11 +31,11 @@ CATEGORY_COLORS = {
 
 # CSV-key -> (icon-filename, display-label)
 PPE_LIBRARY = {
-    "ear":        ("ear.svg",        "EAR PROT."),
-    "eye":        ("eye.svg",        "EYE PROT."),
+    "ear":        ("ear.svg",        "EAR PROTECTION"),
+    "eye":        ("eye.svg",        "EYE PROTECTION"),
     "gloves":     ("gloves.svg",     "GLOVES"),
     "facemask":   ("facemask.svg",   "FACE MASK"),
-    "respirator": ("respirator.svg", "RESPIRATOR"),
+    "dustmask": ("respirator.svg", "DUST MASK"),
     "faceshield": ("faceshield.svg", "FACE SHIELD"),
     "head":       ("head.svg",       "HARD HAT"),
     "foot":       ("foot.svg",       "STEEL TOE"),
